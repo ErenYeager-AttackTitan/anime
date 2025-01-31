@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const API_SECRET_KEY = "your-secure-api-key"; // Hardcoded API Key
+const API_SECRET_KEY = "lolthisismyapikey"; // Hardcoded API Key
 
 exports.handler = async (event) => {
   if (event.httpMethod !== "POST") {
