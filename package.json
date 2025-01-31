@@ -1,0 +1,21 @@
+{
+  "name": "anime-functions",
+  "version": "1.0.0",
+  "description": "Netlify Functions for saving anime and episodes data",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "netlify build",
+    "start": "netlify dev"
+  },
+  "dependencies": {
+    "@netlify/functions": "^0.14.0",
+    "mongodb": "^4.4.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "14.x"
+  },
+  "license": "MIT"
+}
