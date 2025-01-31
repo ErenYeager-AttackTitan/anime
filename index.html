@@ -62,7 +62,7 @@
       };
 
       try {
-        const response = await fetch('/.netlify/functions/saveAnime', {
+        const response = await fetch('https://anime-data.netlify.app/.netlify/functions/saveAnime', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -97,7 +97,7 @@
       };
 
       try {
-        const response = await fetch('/.netlify/functions/saveEpisodes', {
+        const response = await fetch('https://anime-data.netlify.app/.netlify/functions/saveEpisodes', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
