@@ -82,7 +82,7 @@
                 total_episodes: document.getElementById("totalEpisodes").value
             };
 
-            const response = await fetch("https://your-netlify-site.netlify.app/.netlify/functions/saveAnime", {
+            const response = await fetch("https://anime-data.netlify.app/.netlify/functions/saveAnime", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -110,7 +110,7 @@
                 episodes: JSON.parse(document.getElementById("episodeList").value)
             };
 
-            const response = await fetch("https://your-netlify-site.netlify.app/.netlify/functions/saveEpisodes", {
+            const response = await fetch("https://anime-data.netlify.app/.netlify/functions/saveEpisodes", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
